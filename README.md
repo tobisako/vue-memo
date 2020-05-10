@@ -20,3 +20,9 @@ distをS3バケット投入して普通に動作した。アプリクライア�
 
 私物awsエンドポイント : http://tobi-vue-cognito-test1.s3-website-ap-northeast-1.amazonaws.com  
 ユーザープール：cog2  
+
+### 課題
+githubpagesにdist配置した場合、動作しなかった。配置改装に問題あり。
+https://tobisako.github.io/vue-memo/vue-cognito1/
+- index.htmlのパスを書き変えた
+- .js.mapへのリンクが指定出来ずにエラー
